@@ -1,20 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,jsx}"],
-  mode: "jit",
+  content: ['./index.html', './src/**/*.{js,jsx}'],
+  mode: 'jit',
   theme: {
     extend: {
       colors: {
-        primary: "#E9EEF3",
-        secondary: "#00f6ff",
-        accent: "#A7E4F1",
-        bg: "#00040F",
-        dimWhite: "rgba(255, 255, 255, 0.7)",
-        dimBlue: "rgba(9, 151, 124, 0.1)",
+        primary: '#E9EEF3',
+        secondary: '#08A4FA',
+        secondary2: '#00f6ff',
+        accent: '#A7E4F1',
+        bg: '#00040F',
+        dimWhite: 'rgba(255, 255, 255, 0.7)',
+        dimBlue: 'rgba(9, 151, 124, 0.1)',
       },
       fontFamily: { 
-      inter: ["Inter", "sans-serif"],
-      },
+      inter: ['Inter', 'sans-serif'],
+      tektur: ['Tektur', 'sans-serif'],  
+      }
     },
     screens: {
       'xs': '480px',
@@ -24,9 +26,12 @@ export default {
       'lg': '1200px',
     },
     container: {
+      width: '1200px',
       padding: '15px',
       center: true
-    }
+    },
+
+    
   },
   plugins: [],
 }
