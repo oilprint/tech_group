@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#E9EEF3',
+        primary: '#DEE9F6',
         secondary: '#08A4FA',
         secondary2: '#00f6ff',
         accent: '#A7E4F1',
@@ -16,7 +16,13 @@ export default {
       fontFamily: { 
       inter: ['Inter', 'sans-serif'],
       tektur: ['Tektur', 'sans-serif'],  
-      }
+      },
+      backgroundImage: {
+        'hero': "url('./assets/bg.jpg')",
+        'dark': "url('./assets/bg-dark.jpg')",
+        'face': "url('./assets/face.png')",
+      },
+
     },
     screens: {
       'xs': '480px',

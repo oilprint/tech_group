@@ -1,3 +1,7 @@
+import star from '../assets/star.svg';
+import shield from '../assets/shield.svg';
+import send from '../assets/send.svg';
+
 export const navLinks = [
   {
     id: 'home',
@@ -20,6 +24,7 @@ export const navLinks = [
     href: '#solution'
   },
 ];
+
 export const hero = [
   {
     id: 'hero',
@@ -46,3 +51,25 @@ export const stats = [
     value: '7'
   }
 ];
+
+export const features = [
+  {
+    id: 'feature-1',
+    icon: star,
+    title: 'Expert Cybersecurity Services:',
+    content: 'We lead in providing expert cybersecurity services, ensuring the highest level of protection against modern digital threats.'
+  },
+  {
+    id: 'feature-2',
+    icon: shield,
+    title: 'Tailored Security Solutions:',
+    content: "Recognizing each organization's uniqueness, our cybersecurity solutions are crafted individually, considering your business specifics. "
+  },
+  {
+    id: 'feature-3',
+    icon: send,
+    title: 'Transparency and Results:',
+    content: 'Valuing transparency, we provide clear reports and real-time support, ensuring top-notch cybersecurity results for your business.'
+  }
+
+]

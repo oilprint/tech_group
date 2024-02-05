@@ -8,15 +8,15 @@ const App = () => {
     <div className="bg-bg w-full overflow-hidden">
       <Header />
       <main>
-      <Hero />
-      <Stats />
-      <Features />
-      <About />
-      <Testimonials />
+        <Hero />
+        <Stats />
+        <Features />
+        <About />
+        <Testimonials />
       </main>
-      <Footer /> 
+      <Footer />
     </div>
-  )
+  );
 }
 
 export default App 
