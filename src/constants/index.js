@@ -14,14 +14,14 @@ export const navLinks = [
     href: '#about'
   },
   {
-    id: 'features',
-    title: 'Features',
-    href: '#features'
-  },
-  {
     id: 'solution',
     title: 'Solution',
     href: '#solution'
+  },
+  {
+    id: 'contact',
+    title: 'Contact',
+    href: '#contact'
   },
 ];
 

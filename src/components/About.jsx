@@ -16,7 +16,7 @@ const About = () => {
               lead the industry with expert solutions. Our cutting-edge
               technologies and personalized approach guarantee optimal
               protection for your digital assets. Partner with us for
-              unparalleled cybersecurity expertise and fortified peace of mind."
+              unparalleled cybersecurity expertise and fortified peace of mind.
             </p>
             <Button text="About Us" />
           </div>
