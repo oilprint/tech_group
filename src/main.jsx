@@ -4,6 +4,7 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 import Layout from './Layout';
 import About from "./components/About/About";
 import Home from './components/Home/Home';
+import './index.css'
 // import Courses from "./components/Courses/Courses";
 // import Contact from "./components/Contact/Contact";
 
