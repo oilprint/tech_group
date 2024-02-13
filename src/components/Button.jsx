@@ -1,14 +1,17 @@
-
-
-const Button = () => {
+const Button = ({href, label, secondary}) => {
+ let buttonStyle = !secondary ? 'primaryBtn' : 'secondaryBtn';  
+  if (href) {
+    return (
+      <a className={buttonStyle} href={href}>
+        {label}
+      </a>
+    );
+  }
   return (
-    <button
-      type="button"
-      className="py-[18px] px-9 rounded-[10px] bg-secondary2 text-bg text-base font-medium"
-    >
-      Get started
+    <button className={buttonStyle} type="button">
+      {label}
     </button>
   );
-}
+};
 
-export default Button
+export default Button;

@@ -2,21 +2,23 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import Layout from './Layout';
-import About from "./components/About/About";
-import Home from './components/Home/Home';
+import Home from './Home';
+import About from './About';
+import Courses from './Courses';
+import Contact from './Contact';
+import ErrorPage from './ErrorPage';
 import './index.css'
-// import Courses from "./components/Courses/Courses";
-// import Contact from "./components/Contact/Contact";
 
 
 const router =createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
-      <Route path='' element={<Home />} />
-      <Route path='about' element={<About />} />
-      {/* <Route path='solution' element={<Courses />} />
-      <Route path='contact' element={<Contact />} /> */}
-    </Route>
+      <Route index element={<Home />} />
+      <Route path='about' element={<About />}/> 
+      <Route path='courses' element={<Courses />} />
+      <Route path='contact' element={<Contact />} />
+      <Route path='*' element={<ErrorPage />} />
+    </Route> 
   )
 )
 
