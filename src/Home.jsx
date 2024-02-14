@@ -2,12 +2,13 @@ import { Hero, Statistics } from "./sections";
 
 const Home = () => {
   return (
-    <section>
-      <Hero />
-      <Statistics />
-      
-    </section>
-  )
+    <main>
+      <div className="wrapper overflow-hidden ">
+        <Hero />
+        <Statistics />
+      </div>
+    </main>
+  );
 }
 
 export default Home

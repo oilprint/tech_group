@@ -3,7 +3,7 @@ import { statistics } from "../constants";
 const Statistics = () => {
   console.log(statistics);
   return (
-    <section>
+    <section className="container ">
       <ul>
         {statistics.map((item, index) => (
           <li key={index}>

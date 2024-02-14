@@ -5,8 +5,8 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    @apply font-inter bg-bg text-primary text-base
+  body {
+    @apply font-inter bg-bg text-primary text-base overflow-hidden
   }
 }
 
@@ -17,6 +17,8 @@
       #0D0F2E -78.47%,
       #11101d 91.61%);
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  --accent: #00f6ff;
+  --dark: #00040F;
 }
 
 .active {
@@ -26,6 +28,29 @@
 * {
   scroll-behavior: smooth;
 }
+
+.primaryBtn {
+  @apply py-4 px-8 bg-accent rounded-[10px] border border-accent text-bg transition hover:bg-transparent hover:text-accent
+  /* padding: 16px 32px;
+  background: var(--accent);
+  border-radius: 10px;
+  border: 1px solid var(--accent);
+  color: var(--dark);
+  transition: background 0.8s easy -in-out, color 0.4s easy; */
+  /* &:hover {
+    background: transparent;
+    color: var(--accent);
+  } */
+}
+
+.secondaryBtn {
+  padding: 16px 32px;
+  background: transparent;
+  border-radius: 10px;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+}
+
 
 
 .text-gradient {

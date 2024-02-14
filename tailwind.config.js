@@ -8,7 +8,7 @@ export default {
         primary: '#DEE9F6',
         secondary: '#08A4FA',
         secondary2: '#00f6ff',
-        accent: '#A7E4F1',
+        accent: '#00f6ff',
         bg: '#00040F',
         dimWhite: 'rgba(255, 255, 255, 0.7)',
         dimBlue: 'rgba(9, 151, 124, 0.1)',
@@ -18,8 +18,8 @@ export default {
       tektur: ['Tektur', 'sans-serif'],  
       },
       backgroundImage: {
-        'hero': "url('./assets/bg.jpg')",
-        'dark': "url('./assets/bg-dark.jpg')",
+        'hero': "url('./assets/images/bg-hero.jpg')",
+        'wave': "url('./assets/images/bg-wave.png')",
         'face': "url('./assets/face.png')",
       },
 
@@ -32,7 +32,7 @@ export default {
       'lg': '1200px',
     },
     container: {
-      width: '1200px',
+      'max-width': '1200px',
       padding: '15px',
       center: true
     },

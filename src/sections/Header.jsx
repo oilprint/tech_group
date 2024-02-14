@@ -8,9 +8,9 @@ import { navLinks } from '../constants';
 
 const Header = () => {
   return (
-    <header>
-      <nav className="container flex-1 flex justify-between items-center gap-10 py-5">
-        <Link  href="/"className="logo">
+    <header className="container z-50 py-5 left-0 right-0 absolute ">
+      <nav className="flex-1 flex justify-between items-center gap-10 ">
+        <Link href="/" className="logo">
           <img
             className="logo__img"
             src={logo}

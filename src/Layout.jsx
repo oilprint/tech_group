@@ -5,11 +5,11 @@ import  { Header, Footer }  from './sections';
 function Layout() {
   return (
     <>
-    <Header />
-    <Outlet />
-    <Footer />
+      <Header />
+      <Outlet /> 
+      <Footer />
     </>
-  )
+  );
 }
 
 export default Layout
