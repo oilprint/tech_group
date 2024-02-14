@@ -11,7 +11,7 @@ const Hero = () => {
       }}
     >
       {/* <div className="absolute hero__image bg-wave bg-no-repeat bg-cover bg-center h-[250px] bottom-0 left-0 right-0"></div> */}
-      <div className="container flex flex-1 justify-center items-center min-h-screen">
+      <div className="container flex flex-1 justify-center items-center min-h-[90vh]">
         <div className="hero__inner flex flex-1 flex-col justify-center items-center max-w-[900px] w-full text-center ">
           <h1 className="font-tektur md:text-8xl text-6xl  mb-6">
             Unleash Your <span className="text-accent">Tech Potential</span>
@@ -23,7 +23,7 @@ const Hero = () => {
           </p>
           <div className="hero__bottom flex flex-1 gap-[30px]">
             <Button href="#" label="Get Started" />
-            <Button href="#" label="Learn More" secondary={true} />
+            <Button href="#" label="Learn More" secondary />
           </div>
         </div>
       </div>

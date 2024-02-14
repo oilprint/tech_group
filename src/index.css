@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply font-inter bg-bg text-primary text-base overflow-hidden
+    @apply font-inter bg-bg text-primary text-base overflow-x-hidden
   }
 }
 
@@ -30,7 +30,7 @@
 }
 
 .primaryBtn {
-  @apply py-4 px-8 bg-accent rounded-[10px] border border-accent text-bg transition hover:bg-transparent hover:text-accent
+  @apply inline-block py-4 px-8 bg-accent rounded-[10px] border border-accent text-bg transition hover:bg-transparent hover:text-accent
   /* padding: 16px 32px;
   background: var(--accent);
   border-radius: 10px;
@@ -50,6 +50,16 @@
   border: 1px solid var(--accent);
   color: var(--accent);
 }
+
+.bg-gray-gradient {
+  background: linear-gradient(153.47deg,
+      rgba(255, 255, 255, 0) -40%,
+      #0D0F2E 95.11%);
+}
+
+
+
+
 
 
 
@@ -79,8 +89,8 @@
 
 .bg-black-gradient {
   background: linear-gradient(144.39deg,
-      #ffffff -278.56%,
-      #0D0F2E -78.47%,
+      #ffffff -150%,
+      #0D0F2E -50%,
       #11101d 91.61%);
 }
 
@@ -91,14 +101,10 @@
       #11101d 91.61%);
 }
 
-.bg-gray-gradient {
-  background: linear-gradient(153.47deg,
-      rgba(255, 255, 255, 0) -341.94%,
-      #14101d 95.11%);
-}
+
 
 .bg-discount-gradient {
-  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  background: linear-gradient(125.17deg, #0D0F2E 0%, #11101d 100%);
 }
 
 .box-shadow {

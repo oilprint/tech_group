@@ -3,12 +3,17 @@ import { statistics } from "../constants";
 const Statistics = () => {
   console.log(statistics);
   return (
-    <section className="container ">
-      <ul>
+    <section>
+      <ul className="flex justify-center gap-[30px] flex-wrap ">
         {statistics.map((item, index) => (
-          <li key={index}>
-            <span>{item.value}</span>
-            <p>{item.label}</p>
+          <li
+            className="p-6 flex justify-center items-center  bg-gray-gradient rounded-2xl md:min-w-[300px] min-w-[250px]"
+            key={index}
+          >
+            <span className="text-2xl mr-2.5 ">{item.value}</span>
+            <p className="text-accent md:text-xl text-base uppercase">
+              {item.label}
+            </p>
           </li>
         ))}
       </ul>
