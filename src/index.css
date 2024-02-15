@@ -4,7 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
 @layer base {
+  
   body {
     @apply font-inter bg-bg text-primary text-base overflow-x-hidden
   }
@@ -44,6 +48,7 @@
 }
 
 .secondaryBtn {
+  display:inline-block;
   padding: 16px 32px;
   background: transparent;
   border-radius: 10px;
@@ -64,15 +69,8 @@
   box-shadow: 0px 0px 2px 0 var(--accent), 0px 5px 120px -60px var(--accent);
 }
 
-
-
-
 .card {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;  
   border-radius: 20px;
-  padding: 20px;
   transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 

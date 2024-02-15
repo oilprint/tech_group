@@ -1,11 +1,14 @@
-import { Hero, Statistics, Features } from "./sections";
+import { Hero, Statistics, Features, BestCourses } from "./sections";
 
 const Home = () => {
   return (
     <main>
-        <Hero /> 
+      <div className="wrapper overflow-x-hidden">
+        <Hero />
         <Statistics />
         <Features />
+        <BestCourses />
+      </div>
     </main>
   );
 }

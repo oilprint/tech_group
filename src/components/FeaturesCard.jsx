@@ -4,7 +4,7 @@ const FeaturesCard = ({ id, icon, title, text, active }) => {
     <li
       key={id}
       id={id}
-      className={`card items-start ${active ? "active-card" : "bg-transparent"}`}
+      className={`card flex justify-between gap-5 items-start p-5 ${active ? "active-card" : "bg-transparent"}`}
     >
       <img src={icon} alt="icon" width={48} height={48} />
       <div>

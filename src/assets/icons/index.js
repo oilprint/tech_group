@@ -6,6 +6,7 @@ import star from  './star.svg';
 import html from  './html.svg';
 import js from  './js.svg';
 import smm from  './smm.svg';
+import arrow from  './arrow.svg';
 
 
 export {
@@ -16,5 +17,6 @@ export {
   star,
   html,
   js,
-  smm
+  smm,
+  arrow
 }

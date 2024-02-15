@@ -13,6 +13,11 @@ export default {
         dimWhite: 'rgba(255, 255, 255, 0.7)',
         dimBlue: 'rgba(9, 151, 124, 0.1)',
       },
+
+      boxShadow: {
+        '3xl': '0 0 2px 0 rgba(0, 246, 255)',
+      },
+
       fontFamily: { 
       inter: ['Inter', 'sans-serif'],
       tektur: ['Tektur', 'sans-serif'],  
@@ -31,10 +36,11 @@ export default {
       'md': '1024px',
       'lg': '1200px',
     },
+
     container: {
       'max-width': '1200px',
-      padding: '15px',
-      center: true
+      'padding': '15px',
+      'center': true
     },
 
     

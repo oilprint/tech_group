@@ -39,7 +39,7 @@ export const features = [
     active: false,},   
 ];
 
-export const courseCard =[
+export const courseCards =[
   {id:uuidv4(),
     title: "HTML/CSS",
     subtitle: "Fundamentals of Web Design - HTML and CSS",
