@@ -1,9 +1,10 @@
-const FeaturesCard = ({ id, icon, title, text }) => {
+const FeaturesCard = ({ id, icon, title, text, active }) => {
+  
   return (
     <li
       key={id}
       id={id}
-      className="flex-1 flex items-start gap-5 p-5 rounded-[20px]  hover:bg-gray-gradient w-full"
+      className={`card items-start ${active ? "active-card" : "bg-transparent"}`}
     >
       <img src={icon} alt="icon" width={48} height={48} />
       <div>
