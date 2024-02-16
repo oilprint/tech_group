@@ -1,4 +1,11 @@
-import { Hero, Statistics, Features, BestCourses } from "./sections";
+import {
+  Hero,
+  Statistics,
+  Features,
+  BestCourses,
+  AboutCenter,
+  Testimonials,
+} from "../sections";
 
 const Home = () => {
   return (
@@ -8,6 +15,8 @@ const Home = () => {
         <Statistics />
         <Features />
         <BestCourses />
+        <AboutCenter />
+        <Testimonials />
       </div>
     </main>
   );

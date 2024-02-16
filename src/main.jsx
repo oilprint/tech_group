@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import Layout from './Layout';
-import Home from './Home';
-import About from './About';
-import Courses from './Courses';
-import Contact from './Contact';
-import ErrorPage from './ErrorPage';
+import Home from './pages/Home';
+import About from "./pages/About";
+import Courses from "./pages/Courses";
+import Contact from "./pages/Contact";
+import ErrorPage from "./pages/ErrorPage";
 import './index.css'
 
 

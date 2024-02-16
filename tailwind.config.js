@@ -25,7 +25,7 @@ export default {
       backgroundImage: {
         'hero': "url('./assets/images/bg-hero.jpg')",
         'wave': "url('./assets/images/bg-wave.png')",
-        'face': "url('./assets/face.png')",
+        'face': "url('./assets/images/face.png')",
       },
 
     },

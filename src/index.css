@@ -74,6 +74,16 @@
   transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.card-fill {
+  border-radius: 20px;
+  background: linear-gradient(153.47deg,
+      rgba(255, 255, 255, 0) -40%,
+      #0D0F2E 95.11%);
+      
+  transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
 .card:hover {
     background: linear-gradient(153.47deg,
       rgba(255, 255, 255, 0) -40%,

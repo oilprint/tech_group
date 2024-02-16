@@ -1,4 +1,4 @@
-const Button = ({href, label, secondary}) => {
+const Button = ({onClick, href, label, secondary}) => {
  let buttonStyle = !secondary ? 'primaryBtn' : 'secondaryBtn';  
   if (href) {
     return (
@@ -8,7 +8,7 @@ const Button = ({href, label, secondary}) => {
     );
   }
   return (
-    <button className={buttonStyle} type="button">
+    <button className={buttonStyle} type="button" onClick={onClick}>
       {label}
     </button>
   );

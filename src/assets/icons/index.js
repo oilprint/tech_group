@@ -7,6 +7,7 @@ import html from  './html.svg';
 import js from  './js.svg';
 import smm from  './smm.svg';
 import arrow from  './arrow.svg';
+import decor from  './decor.svg';
 
 
 export {
@@ -18,5 +19,6 @@ export {
   html,
   js,
   smm,
-  arrow
+  arrow,
+  decor
 }
