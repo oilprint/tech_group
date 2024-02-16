@@ -5,6 +5,7 @@ import {
   BestCourses,
   AboutCenter,
   Testimonials,
+  ContactUs
 } from "../sections";
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
         <BestCourses />
         <AboutCenter />
         <Testimonials />
+        <ContactUs />
       </div>
     </main>
   );

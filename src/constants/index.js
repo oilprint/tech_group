@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
-import { send, star, shield, html, js, smm } from "../assets/icons";
+import { send, star, shield, html, js, smm, telegram, linkedin, instagram, facebook } from "../assets/icons";
 import { user01, user02, user03, user04, user05, user06, user07, user08, user09, user10 } from "../assets/images/users";
 
 export const statistics = [
@@ -118,5 +118,74 @@ export const testimonials = [
     studentName: "Hannah", 
     course: "SMM",
     userPhoto: user10}
-]
+];
+
+export const footerLinks = [
+  {id: uuidv4(),
+    title: "Courses",
+    links: [{id: uuidv4(),
+        name: "HTML&CSS",
+        link: "#"},
+      {id: uuidv4(),
+        name: "JavaScript",
+        link: "#"},
+      {id: uuidv4(),
+        name: "SMM",
+        link: "#"},
+      {id: uuidv4(),
+        name: "Digital Marketing",
+        link: "#"},
+      {id: uuidv4(),
+        name: "UX/UI Design",
+        link: "#"},
+    ],
+  },
+  {id: uuidv4(),
+    title: "Usefull Links",
+    links: [{id: uuidv4(),
+        name: "About Us",
+        link: "#"},
+      {id: uuidv4(),
+        name: "All Courses",
+        link: "#"},
+      {id: uuidv4(),
+        name: "Privacy policy",
+        link: "#"},
+    ],
+  },
+  {id: uuidv4(),
+    title: "Get in touch",
+    links: [{id: uuidv4(),
+      name: "5educenter@gmail.com",
+      link: "mailto:5educenter@gmail.com"},
+    {id: uuidv4(),
+      name: "+38 066 877 44 11",
+      link: "tel:+380668774411"},
+    ]
+  }
+];
+
+export const socialMedia = [
+  {
+    id: "social-media-1",
+    icon: instagram,
+    link: "https://www.instagram.com/",
+  },
+  {
+    id: "social-media-2",
+    icon: facebook,
+    link: "https://www.facebook.com/",
+  },
+  {
+    id: "social-media-3",
+    icon: telegram,
+    link: "https://www.telegram.com/",
+  },
+  {
+    id: "social-media-4",
+    icon: linkedin,
+    link: "https://www.linkedin.com/",
+  },
+];
+
 

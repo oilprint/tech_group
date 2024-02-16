@@ -4,7 +4,7 @@ const TestimonialCard = ({id, text, studentName, course, userPhoto, index }) => 
   return (
     <li
       id={id}
-      className={`card flex-1 flex flex-col justify-between items-center px-10 py-[60px] bg-gray-gradient  mx-auto ${index === 0 ? "active-card" : ""}`}
+      className={`card flex-1 flex flex-col justify-between items-center px-10 py-[60px]   mx-auto ${index === 0 ? "active-card" : ""}`}
     >
       <blockquote className="flex flex-col justify-between h-full">
         <div>
@@ -19,7 +19,7 @@ const TestimonialCard = ({id, text, studentName, course, userPhoto, index }) => 
         </div>
         <div className="flex gap-4 flex-start">
           <img
-            className="block rounded-full object-cover w-[64px] h-[64px]"
+            className="block rounded-full object-cover w-[64px] h-[64px]  border-2 border-accent"
             src={userPhoto}
             alt={studentName}
             width={64}

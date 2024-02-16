@@ -6,6 +6,7 @@ import Features from "./Features";
 import BestCourses from "./BestCourses";
 import AboutCenter from "./AboutCenter";
 import Testimonials from "./Testimonials";
+import ContactUs from "./ContactUs";
 
 export {
   Header, 
@@ -15,5 +16,6 @@ export {
   Features,
   BestCourses,
   AboutCenter,
-  Testimonials
+  Testimonials,
+  ContactUs
 }
