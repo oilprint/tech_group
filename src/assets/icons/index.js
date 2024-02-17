@@ -13,6 +13,7 @@ import Telegram from  './Telegram';
 import Linkedin from  './Linkedin';
 import Facebook from  './Facebook';
 import Copywrite from  './Copywrite';
+import Chevron from  './Chevron';
 
 
 export {
@@ -30,6 +31,7 @@ export {
   Telegram,
   Linkedin,
   Facebook,
-  Copywrite
+  Copywrite,
+  Chevron
 } 
 

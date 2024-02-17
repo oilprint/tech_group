@@ -5,7 +5,7 @@ import {
   BestCourses,
   AboutCenter,
   Testimonials,
-  ContactUs
+  ContactUs, Faqs
 } from "../sections";
 
 const Home = () => {
@@ -19,6 +19,7 @@ const Home = () => {
         <AboutCenter />
         <Testimonials />
         <ContactUs />
+        <Faqs />
       </div>
     </main>
   );

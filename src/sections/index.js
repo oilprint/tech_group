@@ -7,6 +7,7 @@ import BestCourses from "./BestCourses";
 import AboutCenter from "./AboutCenter";
 import Testimonials from "./Testimonials";
 import ContactUs from "./ContactUs";
+import Faqs from "./Faqs";
 
 
 export {
@@ -18,5 +19,6 @@ export {
   BestCourses,
   AboutCenter,
   Testimonials,
-  ContactUs
+  ContactUs,
+  Faqs
 }

@@ -4,6 +4,7 @@ import CourseCard from "./CourseCard";
 import TestimonialCard from "./TestimonialCard";
 import Social from "./Social";
 import FooterItem from "./FooterItem";
+import Accordion from "./Accordion";
 
 export {
   Button,
@@ -11,5 +12,6 @@ export {
   CourseCard,
   TestimonialCard,
   Social, 
-  FooterItem
+  FooterItem,
+  Accordion
 }

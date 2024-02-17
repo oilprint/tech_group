@@ -1,4 +1,3 @@
-import React from 'react'
 
 const FooterItem = ({title, id, links }) => {
   return (

@@ -195,4 +195,23 @@ export const socialMedia = [
   },
 ];
 
+export const faqs = [
+  {id: uuidv4(),
+    question: "How do I enroll in a course?", 
+    answer: "To enroll in a course, simply visit our website and navigate to the course page of your choice. From there, you can follow the instructions to register and make payment securely online."
+  },
+  {id: uuidv4(),
+    question: "Do you offer any discounts or promotions?", 
+    answer: "Yes, we frequently run promotions and offer discounts on our courses. Be sure to check our website regularly or subscribe to our newsletter to stay updated on any special offers."
+  },
+  {id: uuidv4(),
+    question: "Are the courses self-paced or instructor-led?", 
+    answer: "We offer both self-paced and instructor-led courses to accommodate different learning preferences. You can choose the format that best suits your schedule and learning style."
+  },
+  {id: uuidv4(),
+    question: "What kind of support is available to students during the course?", 
+    answer: "We provide various support options for students, including access to instructors via email or discussion forums, as well as supplemental resources such as video tutorials, quizzes, and assignments to reinforce learning."
+  }
+];
+
 
