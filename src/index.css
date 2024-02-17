@@ -34,11 +34,12 @@
 }
 
 .primaryBtn {
-  @apply transition inline-block py-4 px-8 bg-accent rounded-[10px] border border-accent text-bg hover:bg-transparent hover:text-accent  ease-in-out duration-300 
+  @apply transition inline-block py-4 px-8 bg-accent rounded-[10px] border border-accent text-bg hover:bg-transparent hover:text-accent  ease-in-out duration-300 shrink-0
 }
 
 .secondaryBtn {
   display:inline-block;
+  flex-shrink: 0;
   padding: 16px 32px;
   background: transparent;
   border-radius: 10px;

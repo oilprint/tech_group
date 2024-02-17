@@ -5,7 +5,7 @@ import { CourseCard } from "../components";
 const BestCourses = () => {
   return (
     <section className="container py-[70px] ">
-      <h2 className="mb-12 text-[58px] leading-[1.3] uppercase">
+      <h2 className="mb-12 md:text-[58px] text-5xl leading-[1.3] uppercase">
         Start Your Learning Adventure: Browse Our Courses
       </h2>
       <ul className="grid md:grid-cols-3 ss:grid-cols-2 grid-cols-1 gap-[30px]  w-full mb-[50px]">

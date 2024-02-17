@@ -8,10 +8,11 @@ import js from  './js.svg';
 import smm from  './smm.svg';
 import arrow from  './arrow.svg';
 import decor from  './decor.svg';
-import telegram from  './telegram.svg';
-import linkedin from  './linkedin.svg';
-import instagram from  './instagram.svg';
-import facebook from  './facebook.svg';
+import Instagram from  './Instagram';
+import Telegram from  './Telegram';
+import Linkedin from  './Linkedin';
+import Facebook from  './Facebook';
+import Copywrite from  './Copywrite';
 
 
 export {
@@ -25,8 +26,10 @@ export {
   smm,
   arrow,
   decor,
-  telegram,
-  linkedin,
-  instagram,
-  facebook
+  Instagram,
+  Telegram,
+  Linkedin,
+  Facebook,
+  Copywrite
 } 
+

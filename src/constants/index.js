@@ -1,5 +1,8 @@
 import { v4 as uuidv4 } from "uuid";
-import { send, star, shield, html, js, smm, telegram, linkedin, instagram, facebook } from "../assets/icons";
+import { send, star, shield, html, js, smm, Instagram,
+  Telegram,
+  Linkedin,
+  Facebook } from "../assets/icons";
 import { user01, user02, user03, user04, user05, user06, user07, user08, user09, user10 } from "../assets/images/users";
 
 export const statistics = [
@@ -168,22 +171,26 @@ export const footerLinks = [
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: instagram,
+    name: "Instagram",
+    icon: Instagram,
     link: "https://www.instagram.com/",
   },
   {
     id: "social-media-2",
-    icon: facebook,
+    name: "facebook",
+    icon: Facebook,
     link: "https://www.facebook.com/",
   },
   {
     id: "social-media-3",
-    icon: telegram,
+    name: "telegram",
+    icon: Telegram,
     link: "https://www.telegram.com/",
   },
   {
     id: "social-media-4",
-    icon: linkedin,
+    name: "linkedin",
+    icon: Linkedin,
     link: "https://www.linkedin.com/",
   },
 ];
