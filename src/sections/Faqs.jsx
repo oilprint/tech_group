@@ -6,13 +6,7 @@ import { useState } from "react";
 const Faqs = () => {    
 const [accordion, setAccordion] = useState(0);
 
-const accordionToggle = (id) => {
-  if (id === accordion) {
-    setAccordion(null);
-  } else {
-    setAccordion(id);
-  }
-};
+
   
   return (
     <div className="container py-[70px]">
@@ -21,12 +15,15 @@ const accordionToggle = (id) => {
       </h2>
       <div className="flex-1 flex md:flex-row flex-col justify-between items-center gap-8">
         <ul className="flex flex-col md:max-w-[600px] w-full gap-4">
-          {faqs.map((item) => (
+          {faqs.map((item, index) => (
             <Accordion
               key={item.id}
               {...item}
-              isOpen={item.id === accordion}
-              onClick={accordionToggle}
+              isOpen={index === accordion}
+              onClick={() =>
+                (index = accordion ? setAccordion(null) : setAccordion(index))
+              }
+              isOpen={accordion === index}
             />
           ))}
         </ul>
