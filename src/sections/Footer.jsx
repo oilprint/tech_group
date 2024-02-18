@@ -27,12 +27,16 @@ const Footer = () => {
           ))}
         </ul>
       </div>
-      <div className="opacity-60 flex items-center gap-1">
-        <span>Copyright</span>
-        <span>
-          <Copywrite />
-        </span>
-        <span>2024 5educenter. All Rights Reserved.</span>
+      <div className="opacity-40 flex flex-wrap items-center gap-1">
+        <div className="flex gap-2 items-center">
+          <span>Copyright</span>
+          <span>
+            <Copywrite />
+          </span>
+          <span>2024 5educenter.</span>
+        </div>
+
+        <span>All Rights Reserved.</span>
       </div>
     </footer>
   );

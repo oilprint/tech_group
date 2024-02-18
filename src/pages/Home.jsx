@@ -1,6 +1,6 @@
 import { Hero, Statistics, Features,
   BestCourses, AboutCenter, Testimonials, ContactUs, Faqs } from "../sections";
-  import { Modal } from "../components"
+
 
 const Home = () => {
   return (
@@ -14,7 +14,7 @@ const Home = () => {
         <Testimonials />
         <Faqs />
         <ContactUs />
-        <Modal />
+        
       </div>
     </main>
   );

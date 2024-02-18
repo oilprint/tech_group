@@ -16,7 +16,7 @@ const [accordion, setAccordion] = useState(0);
       }}
     >
       <div className="container ">
-        <h2 className="mb-12 md:text-[58px] text-5xl leading-[1.3] uppercase">
+        <h2 className="md:mb-12 mb-6 md:text-[52px] text-[36px] leading-[1.3] uppercase">
           FAQ: Your Answers to Common Queries
         </h2>
         <div className="flex-1 flex md:flex-row flex-col justify-between  gap-8">
@@ -29,7 +29,6 @@ const [accordion, setAccordion] = useState(0);
                 onClick={() =>
                   (index = accordion ? setAccordion(null) : setAccordion(index))
                 }
-                
               />
             ))}
           </ul>

@@ -1,6 +1,6 @@
 
 
-const CloseBtn = ({width=32, height=32}) => {
+const CloseBtn = ({width="32", height="32"}) => {
   return (
     <svg
       width={width}

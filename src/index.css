@@ -68,6 +68,12 @@
 
 .bg-gray-gradient {
   background: linear-gradient(153.47deg,
+      rgba(0,0,0, 0) -40%,
+      #0D0F2E 95.11%);
+}
+
+.bg-dark-gradient {
+  background: linear-gradient(153.47deg,
       rgba(0,0,0, 1) -40%,
       #0D0F2E 95.11%);
 }
@@ -83,16 +89,6 @@
   border-radius: 20px;
   transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-
-.card-fill {
-  border-radius: 20px;
-  background: linear-gradient(153.47deg,
-      rgba(255, 255, 255, 0) -40%,
-      #0D0F2E 95.11%);
-      
-  transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
 
 .card:hover {
     background: linear-gradient(153.47deg,
@@ -166,14 +162,20 @@ filter: blur(150px);
 }
 
 
-
-.blue__gradient {
-  background: linear-gradient(90deg, #1A2980 0%, #26D0CE 100%);
-  filter: blur(280px);
-  
+.modalOpen-enter {
+  opacity: 0;
+  transform: scale(0.9);
 }
-
-.white__gradient {
-  background: rgba(255, 255, 255, 0.6);
-  filter: blur(750px);
+.modalOpen-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.modalOpen-exit {
+  opacity: 1;
+}
+.modalOpen-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
 }
