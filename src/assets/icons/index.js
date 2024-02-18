@@ -14,6 +14,9 @@ import Linkedin from  './Linkedin';
 import Facebook from  './Facebook';
 import Copywrite from  './Copywrite';
 import Chevron from  './Chevron';
+import CloseBtn from  './CloseBtn';
+import PhoneCall from  './PhoneCall';
+import WhatsApp from  './WhatsApp';
 
 
 export {
@@ -32,6 +35,9 @@ export {
   Linkedin,
   Facebook,
   Copywrite,
-  Chevron
+  Chevron, 
+  CloseBtn,
+  PhoneCall,
+  WhatsApp
 } 
 

@@ -1,12 +1,6 @@
-import {
-  Hero,
-  Statistics,
-  Features,
-  BestCourses,
-  AboutCenter,
-  Testimonials,
-  ContactUs, Faqs
-} from "../sections";
+import { Hero, Statistics, Features,
+  BestCourses, AboutCenter, Testimonials, ContactUs, Faqs } from "../sections";
+  import { Modal } from "../components"
 
 const Home = () => {
   return (
@@ -18,8 +12,9 @@ const Home = () => {
         <BestCourses />
         <AboutCenter />
         <Testimonials />
-        <ContactUs />
         <Faqs />
+        <ContactUs />
+        <Modal />
       </div>
     </main>
   );

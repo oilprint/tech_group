@@ -3,9 +3,9 @@ import { Button } from "../components";
 
 const ContactUs = () => {
   return (
-    <section className="container py-[70px]" id="contactUs">
-      <div className="px-[90px] py-10 flex-1 flex justify-between items-start gap-5 rounded-[20px] bg-gray-gradient">
-        <div className="w-[670px]">
+    <section className="container md:py-[70px] py-10" id="contactUs">
+      <div className="px-[90px] py-10 flex-1 flex justify-between sm:flex-row flex-col items-start gap-8 rounded-[20px] bg-gray-gradient">
+        <div className="max-xs:w-[670px] w-full">
           <h2 className="text-[42px] text-accent uppercase leading-[1] mb-6 ">
             Do you have any questions?
           </h2>

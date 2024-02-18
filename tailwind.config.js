@@ -10,6 +10,7 @@ export default {
         secondary2: '#00f6ff',
         accent: '#00f6ff',
         bg: '#00040F',
+        bgOverlay: 'rgba(0, 4, 15, 0.8)',
         dimWhite: 'rgba(255, 255, 255, 0.7)',
         dimBlue: 'rgba(9, 151, 124, 0.1)',
       },

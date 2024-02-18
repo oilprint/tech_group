@@ -3,7 +3,7 @@ import { statistics } from "../constants";
 const Statistics = () => {
   console.log(statistics);
   return (
-    <section>
+    <section id="statistics">
       <ul className="flex justify-center gap-[30px] flex-wrap ">
         {statistics.map((item, index) => (
           <li

@@ -1,8 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
-import { send, star, shield, html, js, smm, Instagram,
-  Telegram,
-  Linkedin,
-  Facebook } from "../assets/icons";
+import { send, star, shield, html, js, smm, Instagram, Telegram, Linkedin, Facebook, PhoneCall, WhatsApp } from "../assets/icons";
 import { user01, user02, user03, user04, user05, user06, user07, user08, user09, user10 } from "../assets/images/users";
 
 export const statistics = [
@@ -215,3 +212,29 @@ export const faqs = [
 ];
 
 
+export const messengers = [
+  {id: uuidv4(),
+    name: "WhatsApp",
+    icon: WhatsApp,
+    href: "https://wa.me/380668470000",
+    textColor: "#60D669",
+  },
+  {id: uuidv4(),
+    name: "Telegram",
+    icon: Telegram,
+    href: "https://t.me/iryna1015",
+    textColor: "#2AABEE",
+  },
+  {id: uuidv4(),
+    name: "Telegram",
+    icon: Telegram,
+    href: "https://t.me/iryna1015",
+    textColor: "red",
+  },
+  {id: uuidv4(),
+    name: "Mobile",
+    icon: PhoneCall,
+    href: "tel:+380668470000",
+    textColor: "#464242",
+  }, 
+];

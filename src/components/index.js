@@ -5,6 +5,7 @@ import TestimonialCard from "./TestimonialCard";
 import Social from "./Social";
 import FooterItem from "./FooterItem";
 import Accordion from "./Accordion";
+import Modal from "./Modal";
 
 export {
   Button,
@@ -13,5 +14,6 @@ export {
   TestimonialCard,
   Social, 
   FooterItem,
-  Accordion
+  Accordion,
+  Modal
 }

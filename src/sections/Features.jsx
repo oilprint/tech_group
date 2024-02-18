@@ -3,9 +3,10 @@ import { features } from "../constants";
 
 const Features = () => {
   return (
-    <section className="container py-[70px] ">
+    <section className="container md:py-[70px] py-10" id="features">
       <div className="flex-1 flex  justify-between md:items-start items-center md:gap-5 gap-9  w-full md:flex-row flex-col ">
-        <div className="flex flex-col items-center md:items-start md:max-w-[500px] w-full  ">
+        <div className="relative flex flex-col items-center md:items-start md:max-w-[500px] w-full ">
+          <div className="absolute z-[3] -left-1/2 top-0 w-[70%] h-[120%] rounded-full  blue__gradient" />
           <h2 className="mb-12 text-4xl leading-[1.3] uppercase">
             Discover the Advantages: Elevate Your Skills with Our Courses
           </h2>

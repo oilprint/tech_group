@@ -13,14 +13,14 @@ const Accordion = ({ id, question, answer, index, onClick, isOpen }) => {
   // }
   return (
     <li
-      className={`px-5 rounded-[20px] ${isOpen ? "bg-gray-gradient py-5" : ""}`}
+      className={`p-5 rounded-[20px] ${isOpen ? "bg-gray-gradient " : ""}`}
       key={id}
     >
       <div
         className="flex justify-between items-center gap-8 cursor-pointer "
         onClick={()=> onClick()}
       >
-        <h3 className={`text-2xl mb-2 ${isOpen ? "text-accent" : ""}`}>
+        <h3 className={`text-3xl mb-2 ${isOpen ? "text-accent" : ""}`}>
           {question}
         </h3>
         <div className={`shrink-0 w-12 h-12 ${isOpen ? "rotate-180" : ""}`}>
