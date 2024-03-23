@@ -1,6 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 import { send, star, shield, html, js, smm, Instagram, Telegram, Linkedin, Facebook, PhoneCall, WhatsApp } from "../assets/icons";
 import { user01, user02, user03, user04, user05, user06, user07, user08, user09, user10 } from "../assets/images/users";
+import {About, Contact, Courses } from '../pages'
 
 export const statistics = [
   {value: "2000+", label: "happy clients"},
@@ -63,6 +64,7 @@ export const courseCards =[
     active: false,
   },
 ];
+
 export const aboutCenter = 
   {id: uuidv4(),
   title: "Revolutionizing Computer Education",
@@ -144,10 +146,10 @@ export const footerLinks = [
     title: "Usefull Links",
     links: [{id: uuidv4(),
         name: "About Us",
-        link: "#"},
+        link: "about"},
       {id: uuidv4(),
         name: "All Courses",
-        link: "#"},
+        link: "courses"},
       {id: uuidv4(),
         name: "Privacy policy",
         link: "#"},
@@ -167,10 +169,10 @@ export const footerLinks = [
 
 export const socialMedia = [
   {
-    id: "social-media-1",
-    name: "Instagram",
-    icon: Instagram,
-    link: "https://www.instagram.com/",
+    id: "social-media-4",
+    name: "Linkedin",
+    icon: Linkedin,
+    link: "https://www.linkedin.com/",
   },
   {
     id: "social-media-2",
@@ -179,16 +181,16 @@ export const socialMedia = [
     link: "https://www.facebook.com/",
   },
   {
+    id: "social-media-1",
+    name: "Instagram",
+    icon: Instagram,
+    link: "https://www.instagram.com/",
+  },
+  {
     id: "social-media-3",
     name: "telegram",
     icon: Telegram,
     link: "https://www.telegram.com/",
-  },
-  {
-    id: "social-media-4",
-    name: "linkedin",
-    icon: Linkedin,
-    link: "https://www.linkedin.com/",
   },
 ];
 

@@ -6,6 +6,7 @@ import Social from "./Social";
 import FooterItem from "./FooterItem";
 import Accordion from "./Accordion";
 import Modal from "./Modal";
+import LinkCustom from "./LinkCustom";
 
 export {
   Button,
@@ -15,5 +16,6 @@ export {
   Social, 
   FooterItem,
   Accordion,
-  Modal
+  Modal,
+  LinkCustom
 }

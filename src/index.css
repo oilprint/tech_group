@@ -4,27 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
 @layer base {
-  
   body {
-    @apply font-inter bg-bg text-primary text-base overflow-x-hidden
+    @apply font-inter bg-bg text-primary text-base overflow-x-hidden;
   }
 }
 
-
 :root {
-  --black-gradient: linear-gradient(144.39deg,
-      #ffffff -278.56%,
-      #0D0F2E -78.47%,
-      #11101d 91.61%);
+  --black-gradient: linear-gradient(144.39deg, #ffffff -278.56%, #0d0f2e -78.47%, #11101d 91.61%);
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
-  --primary: #DEE9F6;
+  --primary: #dee9f6;
   --accent: #00f6ff;
-  --dark: #00040F;
-  --secondary: #08A4FA;
+  --dark: #00040f;
+  --secondary: #08a4fa;
 }
 
 .active {
@@ -36,21 +28,23 @@
 }
 
 .primaryBtn {
-  @apply inline-block py-4 px-8 bg-accent rounded-[10px] border border-accent text-bg hover:bg-transparent hover:text-accent shrink-0 focus:outline-1 focus:outline-accent focus:rounded-[4px] focus:outline-offset-4 transition    ease-in-out duration-300 active:bg-secondary active:border-secondary active:text-primary
+  @apply inline-block py-4 px-8 bg-accent rounded-[10px] border border-accent text-bg hover:bg-transparent hover:text-accent shrink-0 focus:outline-1 focus:outline-accent focus:rounded-[4px] focus:outline-offset-4 transition    ease-in-out duration-300 active:bg-secondary active:border-secondary active:text-primary;
 }
 
 .secondaryBtn {
-  display:inline-block;
+  display: inline-block;
   flex-shrink: 0;
   padding: 16px 32px;
   background: transparent;
   border-radius: 10px;
   border: 1px solid var(--accent);
   color: var(--accent);
-  transition: background-color .15s ease-in-out,border-color .15s ease-in-out;
+  transition:
+    background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
 }
 
-.secondaryBtn:hover{
+.secondaryBtn:hover {
   background: var(--accent);
   color: var(--dark);
 }
@@ -58,7 +52,7 @@
 .secondaryBtn:focus {
   outline: solid 1px var(--accent);
   outline-offset: 4px;
-  border-radius: 4px; 
+  border-radius: 4px;
   color: var(--primary);
 }
 
@@ -67,70 +61,67 @@
 }
 
 .bg-gray-gradient {
-  background: linear-gradient(153.47deg,
-      rgba(0,0,0, 0) -40%,
-      #0D0F2E 95.11%);
+  background: linear-gradient(153.47deg, rgba(0, 0, 0, 0) -40%, #0d0f2e 95.11%);
 }
 
 .bg-dark-gradient {
-  background: linear-gradient(153.47deg,
-      rgba(0,0,0, 1) -40%,
-      #0D0F2E 95.11%);
+  background: linear-gradient(153.47deg, rgba(0, 0, 0, 1) -40%, #0d0f2e 95.11%);
 }
 
 .active-card {
-  background: linear-gradient(153.47deg,
-     rgba(0,0,0, 0) -40%,
-      #0D0F2E 95.11%);
-  box-shadow: 0px 0px 2px 0 var(--accent), 0px 5px 120px -60px var(--accent);
+  background: linear-gradient(153.47deg, rgba(0, 0, 0, 0) -40%, #0d0f2e 95.11%);
+  box-shadow:
+    0px 0px 2px 0 var(--accent),
+    0px 5px 120px -60px var(--accent);
 }
 
 .card {
   border-radius: 20px;
-  transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition:
+    background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
 }
 
 .card:hover {
-    background: linear-gradient(153.47deg,
-      rgba(0,0,0, 0) -40%,
-      #0D0F2E 95.11%);
-  box-shadow: 0px 0px 2px 0 var(--accent), 0px 5px 120px -60px var(--accent);
-  
+  background: linear-gradient(153.47deg, rgba(0, 0, 0, 0) -40%, #0d0f2e 95.11%);
+  box-shadow:
+    0px 0px 2px 0 var(--accent),
+    0px 5px 120px -60px var(--accent);
 }
 
-.card .active{
-    background: linear-gradient(153.47deg,
-      rgba(255, 255, 255, 0) -40%,
-      #0D0F2E 95.11%);
-  box-shadow: 0px 0px 2px 0 var(--accent), 0px 5px 120px -60px var(--accent);
-  
+.card .active {
+  background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -40%, #0d0f2e 95.11%);
+  box-shadow:
+    0px 0px 2px 0 var(--accent),
+    0px 5px 120px -60px var(--accent);
 }
 
 .bg-blue-gradient {
-  background: linear-gradient(157.81deg,
-      #def9fa -43.27%,
-      #bef3f5 -21.24%,
-      #9dedf0 12.19%,
-      #7de7eb 29.82%,
-      #5ce1e6 51.94%,
-      #33bbcf 90.29%);
-filter: blur(150px);
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+  filter: blur(150px);
+}
+
+.blue-gradient {
+  background: #18c9f0;
+  filter: blur(280px);
 }
 
 .bg-black-gradient {
-  background: linear-gradient(144.39deg,
-      #ffffff -150%,
-      #0D0F2E -50%,
-      #11101d 91.61%);
+  background: linear-gradient(144.39deg, #ffffff -150%, #0d0f2e -50%, #11101d 91.61%);
 }
 
 .bg-black-gradient-2 {
-  background: linear-gradient(-168.39deg,
-      #ffffff -278.56%,
-      #6d6d6d -78.47%,
-      #11101d 91.61%);
+  background: linear-gradient(-168.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
 }
-
 
 .sidebar {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -161,7 +152,6 @@ filter: blur(150px);
   }
 }
 
-
 .modalOpen-enter {
   opacity: 0;
   transform: scale(0.9);
@@ -169,7 +159,9 @@ filter: blur(150px);
 .modalOpen-enter-active {
   opacity: 1;
   transform: translateX(0);
-  transition: opacity 300ms, transform 300ms;
+  transition:
+    opacity 300ms,
+    transform 300ms;
 }
 .modalOpen-exit {
   opacity: 1;
@@ -177,5 +169,7 @@ filter: blur(150px);
 .modalOpen-exit-active {
   opacity: 0;
   transform: scale(0.9);
-  transition: opacity 300ms, transform 300ms;
+  transition:
+    opacity 300ms,
+    transform 300ms;
 }

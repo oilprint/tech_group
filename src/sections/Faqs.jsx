@@ -1,11 +1,10 @@
-import { Accordion } from "../components";
-import { faqs } from "../constants";
-import { faqImage, bgHero  } from "../assets/images";
-import { useState } from "react";
+import { Accordion } from '../components';
+import { faqs } from '../constants';
+import { faqImage, bgHero } from '../assets/images';
+import { useState } from 'react';
 
-
-const Faqs = () => {    
-const [accordion, setAccordion] = useState(0);
+const Faqs = () => {
+  const [accordion, setAccordion] = useState(0);
 
   return (
     <section
@@ -13,8 +12,7 @@ const [accordion, setAccordion] = useState(0);
       id="faqs"
       style={{
         backgroundImage: ` linear-gradient(0deg, rgba(0,4,15,1) 0%, rgba(0,4,15,0.5) 18%, rgba(0,4,15,0) 41%), linear-gradient(0deg, rgba(0,4,15,0) 0%, rgba(0,4,15,0.5) 80%, rgba(0,4,15,1) 100%), url(${bgHero})`,
-      }}
-    >
+      }}>
       <div className="container ">
         <h2 className="md:mb-12 mb-6 md:text-[52px] text-[36px] leading-[1.3] uppercase">
           FAQ: Your Answers to Common Queries
@@ -26,9 +24,7 @@ const [accordion, setAccordion] = useState(0);
                 key={item.id}
                 {...item}
                 isOpen={index === accordion}
-                onClick={() =>
-                  (index = accordion ? setAccordion(null) : setAccordion(index))
-                }
+                onClick={() => (index === accordion ? setAccordion(null) : setAccordion(index))}
               />
             ))}
           </ul>
@@ -43,6 +39,6 @@ const [accordion, setAccordion] = useState(0);
       </div>
     </section>
   );
-}
+};
 
-export default Faqs
+export default Faqs;

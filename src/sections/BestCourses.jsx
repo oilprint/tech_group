@@ -1,6 +1,6 @@
-import { arrow } from '../assets/icons';
-import { courseCards } from '../constants'
-import { CourseCard } from "../components";
+import { Link } from 'react-router-dom';
+import { courseCards } from '../constants';
+import { CourseCard, LinkCustom } from '../components';
 
 const BestCourses = () => {
   return (
@@ -9,19 +9,16 @@ const BestCourses = () => {
         Start Your Learning Adventure: Browse Our Courses
       </h2>
       <ul className="grid md:grid-cols-3 ss:grid-cols-2 grid-cols-1 gap-[30px]  w-full sm:mb-[50px] mb-10">
-        {courseCards.map((item) => (
-          <CourseCard key={item.id} {...item} />
+        {courseCards.map((item, index) => (
+          <CourseCard key={item.id} {...item} index={index} />
         ))}
       </ul>
-      <a
-        className="flex gap-2 uppercase sm:mr-0 mx-auto w-fit text-accent"
-        href="#"
-      >
-        All Courses
-        <img src={arrow} alt="" width={36} height={16} />
-      </a>
+
+      <Link to="courses">
+        <LinkCustom label="All Courses" />
+      </Link>
     </section>
   );
-}
+};
 
-export default BestCourses
+export default BestCourses;

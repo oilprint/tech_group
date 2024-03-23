@@ -1,7 +1,6 @@
 import { Social, FooterItem } from '../components';
-import { footerLinks, socialMedia } from "../constants";
-import { logo, Copywrite } from "../assets/icons";
-
+import { footerLinks, socialMedia } from '../constants';
+import { logo, Copywrite } from '../assets/icons';
 
 const Footer = () => {
   console.log(footerLinks);
@@ -9,13 +8,8 @@ const Footer = () => {
     <footer className="container md:pt-[70px] pt-10 pb-9 w-full">
       <div className="flex md:gap-[100px] gap-12 flex-wrap justify-between md:flex-row flex-col  border-solid border-b border-b-[#3F3E45] mb-9">
         <div className="flex-1 flex flex-col max-w-[240px] w-full ">
-          <a href="#">
-            <img
-              src={logo}
-              alt="logo Education Center 5"
-              width={240}
-              height={50}
-            />
+          <a href="#" className="block mb-8">
+            <img src={logo} alt="logo Education Center 5" width={240} height={50} />
           </a>
           <div className="ml-auto">
             <Social arr={socialMedia} />
@@ -40,6 +34,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-}
+};
 
-export default Footer
+export default Footer;
