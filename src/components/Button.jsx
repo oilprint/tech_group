@@ -3,7 +3,11 @@ import { Link } from 'react-router-dom';
 const Button = ({ onClick, href, label, secondary }) => {
   let buttonStyle = !secondary ? 'primaryBtn' : 'secondaryBtn';
   if (href) {
-    return <a className={buttonStyle}>{label}</a>;
+    return (
+      <Link to="href" className={buttonStyle}>
+        {label}
+      </Link>
+    );
   }
   return (
     <button className={buttonStyle} type="button" onClick={onClick}>

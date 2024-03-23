@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { courseCards } from '../constants';
 import { CourseCard, LinkCustom } from '../components';
 
@@ -14,9 +13,7 @@ const BestCourses = () => {
         ))}
       </ul>
 
-      <Link to="courses">
-        <LinkCustom label="All Courses" />
-      </Link>
+      <LinkCustom label="All Courses" href="courses" />
     </section>
   );
 };

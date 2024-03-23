@@ -13,9 +13,7 @@ const CourseCard = ({ title, subtitle, text, icon, active, id }) => {
         <p className="text-xl uppercase text-accent mb-4 ">{subtitle}</p>
         <p className="mb-9">{text}</p>
       </div>
-      <Link to={id}>
-        <Button label="Learn More" href={id} secondary />
-      </Link>
+      <Button label="Learn More" href={id} secondary />
     </li>
   );
 };

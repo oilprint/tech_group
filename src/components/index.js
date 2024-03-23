@@ -7,6 +7,7 @@ import FooterItem from "./FooterItem";
 import Accordion from "./Accordion";
 import Modal from "./Modal";
 import LinkCustom from "./LinkCustom";
+import Slider from "./Slider";
 
 export {
   Button,
@@ -17,5 +18,6 @@ export {
   FooterItem,
   Accordion,
   Modal,
-  LinkCustom
+  LinkCustom, 
+  Slider
 }

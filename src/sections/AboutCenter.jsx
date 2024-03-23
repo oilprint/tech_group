@@ -23,10 +23,7 @@ const AboutCenter = () => {
             {aboutCenter.title}
           </h2>
           <p className="mb-[50px]">{aboutCenter.text}</p>
-
-          <NavLink to="about">
-            <Button href="#" label="About Us" />
-          </NavLink>
+          <Button href="about" label="About Us" />
         </div>
       </div>
     </section>

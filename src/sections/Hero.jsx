@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Button } from '../components';
 import bgHero from '../assets/images/bg-hero.jpg';
 
@@ -21,12 +21,8 @@ const Hero = () => {
             topics with the support of our knowledgeable instructors.
           </p>
           <div className="hero__bottom flex flex-1 gap-[30px]">
-            <Link to="courses">
-              <Button href="courses" label="Get Started" />{' '}
-            </Link>
-            <Link to="courses">
-              <Button href="about" label="Learn More" secondary />
-            </Link>
+            <Button href="courses" label="Get Started" />
+            <Button href="about" label="Learn More" secondary />
           </div>
         </div>
       </div>
