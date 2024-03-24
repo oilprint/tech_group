@@ -9,7 +9,7 @@ const BestCourses = () => {
       </h2>
       <ul className="grid md:grid-cols-3 ss:grid-cols-2 grid-cols-1 gap-[30px]  w-full sm:mb-[50px] mb-10">
         {courseCards.map((item, index) => (
-          <CourseCard key={item.id} {...item} index={index} />
+          <CourseCard key={item.id} index={index} {...item} />
         ))}
       </ul>
 

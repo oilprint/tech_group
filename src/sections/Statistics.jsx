@@ -1,9 +1,8 @@
 import { statistics } from '../constants';
 
 const Statistics = () => {
-  console.log(statistics);
   return (
-    <section id="statistics">
+    <section id="statistics" className="relative z-10">
       <ul className="flex justify-center gap-[30px] flex-wrap ">
         {statistics.map((item, index) => (
           <li

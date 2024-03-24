@@ -2,7 +2,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
-import { arrow } from '../assets/icons';
 import { decor } from '../assets/icons';
 
 const Slider = ({ testimonials }) => {
@@ -13,6 +12,7 @@ const Slider = ({ testimonials }) => {
         spaceBetween={10}
         pagination={true}
         navigation={true}
+        grabCursor={true}
         loop={true}
         autoplay={{
           delay: 2500,

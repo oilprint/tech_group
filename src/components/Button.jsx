@@ -4,7 +4,7 @@ const Button = ({ onClick, href, label, secondary }) => {
   let buttonStyle = !secondary ? 'primaryBtn' : 'secondaryBtn';
   if (href) {
     return (
-      <Link to="href" className={buttonStyle}>
+      <Link to={href} className={buttonStyle}>
         {label}
       </Link>
     );
