@@ -213,7 +213,6 @@ export const faqs = [
   }
 ];
 
-
 export const messengers = [
   {id: uuidv4(),
     name: "WhatsApp",
@@ -233,4 +232,35 @@ export const messengers = [
     href: "tel:+380668470000",
     textColor: "#464242",
   }, 
+];
+
+export const aboutFaqs = [
+  {id: uuidv4(),
+    question: "Individual approach:", 
+    answer: " We understand that each student is unique, so our approach to education is personalized and adapted to the needs of each learner."
+  },
+  {id: uuidv4(),
+    question: "Experienced teachers:", 
+    answer: " Our team consists of highly qualified and experienced teachers who are passionate about education and ready to support students at every stage of learning."
+  },
+  {id: uuidv4(),
+    question: "Modern methodologies:", 
+    answer: "We use advanced teaching methods and technologies to create interactive and engaging educational materials."
+  },
+  {id: uuidv4(),
+    question: "Extensive program:", 
+    answer: "Our educational center offers a wide range of courses and programs, allowing students to choose what suits their interests and goals."
+  },
+  {id: uuidv4(),
+    question: "Support and motivation:", 
+    answer: " We strive to create a supportive learning environment where every student feels confident and motivated to achieve their goals."
+  },
+  {id: uuidv4(),
+    question: "Collaboration with parents: ", 
+    answer: "We value partnership with parents and consider them important partners in the educational process."
+  },
+  {id: uuidv4(),
+    question: "Community involvement:", 
+    answer: "We are actively engaged in community and cultural initiatives, providing opportunities for broadening students' horizons and developing their social skills."
+  },
 ];

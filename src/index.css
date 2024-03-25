@@ -65,7 +65,7 @@
 }
 
 .bg-dark-gradient {
-  background: linear-gradient(153.47deg, rgba(0, 0, 0, 1) -40%, #0d0f2e 95.11%);
+  background: linear-gradient(153.47deg, #0a0b20 -40%, #0d0f2e 95.11%);
 }
 
 .card {
@@ -193,7 +193,7 @@
 
 .swiper-pagination-bullet {
   background: transparent;
-  border: 1px solid var(--accent);
+  border: 2px solid var(--accent);
   width: 16px;
   height: 16px;
 }

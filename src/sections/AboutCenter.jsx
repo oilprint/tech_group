@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom';
 import { aboutCenter } from '../constants';
 import { bgHero, bgFace } from '../assets/images';
 import { Button } from '../components';

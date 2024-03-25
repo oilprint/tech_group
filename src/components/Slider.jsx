@@ -30,11 +30,11 @@ const Slider = ({ testimonials }) => {
           },
         }}
         modules={[Pagination, Navigation, Autoplay]}
-        className="mySwiper max-w-full">
+        className="mySwiper max-w-full pt-[30px]">
         {testimonials.map((item) => (
           <SwiperSlide key={item.id}>
             <div
-              className={`card flex-1 flex flex-col justify-between items-center px-10 py-[60px] mx-auto`}>
+              className={`card flex-1 flex flex-col justify-between items-center px-10 py-[60px] mx-auto `}>
               <blockquote className="flex flex-col justify-between h-full">
                 <div>
                   <img className="mb-10" src={decor} alt="icon" width={42} height={27} />

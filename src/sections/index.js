@@ -8,6 +8,9 @@ import AboutCenter from "./AboutCenter";
 import Testimonials from "./Testimonials";
 import ContactUs from "./ContactUs";
 import Faqs from "./Faqs";
+import AboutHero from "./AboutHero";
+import AboutFaqs from "./AboutFaqs";
+import CoursesHero from "./CoursesHero";
 
 
 export {
@@ -20,5 +23,8 @@ export {
   AboutCenter,
   Testimonials,
   ContactUs,
-  Faqs
+  Faqs,
+  AboutHero,
+  AboutFaqs,
+  CoursesHero
 }
