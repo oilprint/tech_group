@@ -1,7 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
-import { send, star, shield, html, js, smm, Instagram, Telegram, Linkedin, Facebook, PhoneCall, WhatsApp } from "../assets/icons";
+import { send, star, shield, html, js, smm, ai, finance, marketing, mobile, data, Instagram, Telegram, Linkedin, Facebook, PhoneCall, WhatsApp } from "../assets/icons";
 import { user01, user02, user03, user04, user05, user06, user07, user08, user09, user10 } from "../assets/images/users";
-import {About, Contact, Courses } from '../pages'
 
 export const statistics = [
   {value: "2000+", label: "happy clients"},
@@ -61,6 +60,41 @@ export const courseCards =[
     subtitle: "Promotion in social networks. Targeting",
     text: "Become Proficient in a Highly Sought-After Digital Career.<br/> Apply Your Skills to a Real Client Project.<br/> Create a strategy for promoting the project on social networks and add it to your portfolio",
     icon: smm,
+    active: false,
+  },
+  {id:uuidv4(),
+    title: "Digital Marketing", 
+    subtitle: "Online Promotion Strategies", 
+    text: "This course provides practical knowledge of digital marketing strategies, including SEO, content marketing, social media, and analytics. Students will learn how to attract target audiences and increase conversions in online businesses.",
+    icon: marketing,
+    active: false,
+  },
+  {id:uuidv4(),
+    title: "Mobile Development", 
+    subtitle: "Creating iOS and Android Applications", 
+    text: "This course focuses on developing mobile applications for iOS and Android platforms. Students will learn essential tools and programming languages such as Swift (for iOS) and Kotlin (for Android), as well as creating user interfaces and interacting with APIs.",
+    icon: mobile,
+    active: false,
+  },
+  {id:uuidv4(),
+    title: "Data Analysis", 
+    subtitle: "Data Extraction, Processing, and Visualization", 
+    text: "The course covers the basics of data analysis, including methods for collecting, processing, and visualizing information. Students will become familiar with data analysis tools such as Python and libraries like Pandas, NumPy, and Matplotlib, and learn how to apply them to solve real-world business problems.",
+    icon: data,
+    active: false,
+  },
+  {id:uuidv4(),
+    title: "Artificial Intelligence", 
+    subtitle: "Introduction to Machine Learning and Neural Networks", 
+    text: "In this course, students will be introduced to the basics of machine learning and neural networks. They will study various methods of model training, including classification, regression, and clustering, and learn how to apply them for data analysis and prediction.",
+    icon: ai,
+    active: true,
+  },
+  {id:uuidv4(),
+    title: "Financial Literacy", 
+    subtitle: "Fundamentals of Personal Finance and Investments", 
+    text: "This course provides basic knowledge of personal finance, budgeting, investing, and financial planning. Students will learn about various types of investments, debt management, and creating a financial strategy to achieve their goals.",
+    icon: finance,
     active: false,
   },
 ];
