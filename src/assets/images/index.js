@@ -1,6 +1,7 @@
 import faqImage from './faqImage.png';
 import bgHero from './bg-hero.jpg';
 import bgFace from './face.png';
+import contactPhoto from './contact.jpg';
 import aboutFaqsPhoto from './aboutFaqs.png';
 import html from  './courses/html.svg';
 import js from  './courses/js.svg';
@@ -23,6 +24,7 @@ export {
   faqImage, 
   bgHero,
   bgFace,
+  contactPhoto,
   aboutFaqsPhoto,
   html,
   js,

@@ -10,7 +10,7 @@ const Hero = () => {
       style={{
         backgroundImage: ` linear-gradient(0deg, rgba(0,4,15,1) 0%, rgba(0,4,15,0.48783263305322133) 18%, rgba(0,4,15,0.011642156862745057) 41%), url(${bgHero})`,
       }}>
-      <div className="absolute z-10 bottom-0 left-0 right-0 w-full h-[50vh] bg-black-gradient-2"></div>
+      <div className="absolute z-10 -bottom-2 left-0 right-0 w-full h-[50vh] bg-black-gradient-2"></div>
       <video
         src={bgVideo}
         autoPlay

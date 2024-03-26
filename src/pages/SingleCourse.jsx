@@ -9,9 +9,7 @@ const SingleCourse = () => {
   const [course, setCourse] = useState(null);
 
   useEffect(() => {
-    console.log(id);
     const singleCourse = courseCards.find((el) => el.id === id);
-    console.log(singleCourse);
     setCourse(singleCourse);
   }, []);
 

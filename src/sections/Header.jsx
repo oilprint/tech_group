@@ -1,10 +1,14 @@
 import { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { logo, OpenMenu, CloseBtn } from "../assets/icons";
+import { logo, OpenMenu, CloseBtn } from '../assets/icons';
 import { navLinks } from '../constants';
 
 const Header = () => {
-  const [toggleMenu, setToggleMenu] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
 
   return (
     <header className="container z-50 py-5 left-0 right-0 absolute ">
@@ -28,24 +32,24 @@ const Header = () => {
           ))}
         </ul>
         <button
-          onClick={() => setToggleMenu((prev) => !prev)}
-          className="sm:hidden flex w-10 h-10 text-primary"
-        >
-          {toggleMenu ? <CloseBtn /> : <OpenMenu />}
+          onClick={() => setIsOpen((prev) => !prev)}
+          className="sm:hidden flex w-10 h-10 text-primary z-10">
+          {isOpen ? <CloseBtn /> : <OpenMenu />}
         </button>
-        <div
-          className={`${toggleMenu ? "flex" : "hidden"} top-20 right-0 p-6 h-screen bg-dark-gradient absolute min-w-[300px] rounded-xl sidebar`}
-        >
-          <ul className="flex-1 flex-col items-center gap-4 flex   ">
-            {navLinks.map((item) => (
-              <li className="p-2" key={item.label}>
-                <NavLink to={item.href} className="text-2xl">
-                  {item.label}
-                </NavLink>
-              </li>
-            ))}
-          </ul>
-        </div>
+        {isOpen && (
+          <div
+            className={`${isOpen ? 'flex' : 'hidden'} top-20 right-0 p-6 pt-12 bg-dark-gradient absolute w-full min-w-[300px] rounded-xl sidebar h-[100vh] `}>
+            <ul className="flex-1 flex-col items-center gap-4 flex">
+              {navLinks.map((item) => (
+                <li className="p-2" key={item.label}>
+                  <NavLink onClick={closeMenu} to={item.href} className="text-2xl">
+                    {item.label}
+                  </NavLink>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </nav>
     </header>
   );

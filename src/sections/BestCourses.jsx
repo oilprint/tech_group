@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
 import { courseCards } from '../constants';
-import { CourseCard, LinkCustom } from '../components';
+import { CourseCard } from '../components';
 import { arrow } from '../assets/icons';
 
 const BestCourses = () => {
   const firstThreeElements = courseCards.filter((item, index) => index < 3);
   return (
-    <section className="container md:py-[70px] py-10 ">
+    <section className="container md:py-[70px] py-10" id="best">
       <h2 className="md:mb-12 mb-6 md:text-[52px] text-[36px] leading-[1.3] uppercase">
         Start Your Learning Adventure: Browse Our Courses
       </h2>

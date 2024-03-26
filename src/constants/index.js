@@ -45,6 +45,7 @@ export const courseCards =[
   {id:uuidv4(),
     title: "HTML/CSS",
     subtitle: "Fundamentals of Web Design - HTML and CSS",
+    titleBig: "Fundamentals of Web Design - HTML and CSS",
     text: "After completing this course, you will be able to easily create website layouts, make changes to HTML pages, style pages using CSS properties, implement animations, gradients, and transformations, create responsive designs, utilize SASS, jQuery, Bootstrap, and gain a deep understanding of web project development",
     icon: html,
     active: false,
@@ -144,6 +145,7 @@ export const courseCards =[
   {id:uuidv4(),
     title: "JavaScript",
     subtitle: "Creating Interactive Web Pages, Programming",
+    titleBig: "JavaScript Fundamentals: Mastering Web Development",
     text: "Workflow organization, code version control, JavaScript, conditions, loops, arrays and functions, objects in JavaScript, browser and document object model, event processing, regular expressions, AJAX technology",
     icon: js,
     active: true,
@@ -269,6 +271,7 @@ export const courseCards =[
   {id:uuidv4(),
     title: "SMM",
     subtitle: "Promotion in social networks. Targeting",
+    titleBig: "SMM: Promotion in social networks. Targeting",
     text: "Become Proficient in a Highly Sought-After Digital Career.<br/> Apply Your Skills to a Real Client Project.<br/> Create a strategy for promoting the project on social networks and add it to your portfolio",
     icon: smm,
     active: false,
@@ -277,123 +280,95 @@ export const courseCards =[
     photo: smmPhoto,
     description: "This course is designed for those who want to master the basics of social media strategies and develop practical skills in content management and audience engagement. Students will learn the fundamental principles of creating and promoting content on various social platforms, as well as how to use analytics tools to evaluate campaign effectiveness. Practical assignments and case studies will allow students to apply their knowledge in practice, enhance their professional skills in the field of social media, and effectively manage the online presence of a brand or company.",
     program: [
-    {
-        "title": "Introduction to JavaScript",
-        "description": [
-            "Overview of JavaScript language and its role in web development.",
-            "Basic syntax and structure of JavaScript code."
-        ]
-    },
-    {
-        "title": "Data Types and Variables",
-        "description": [
-            "Understanding different data types in JavaScript: string, number, boolean, etc.",
-            "Declaration and usage of variables using var, let, and const keywords."
-        ]
-    },
-    {
-        "title": "Operators and Expressions",
-        "description": [
-            "Exploring arithmetic, assignment, comparison, and logical operators in JavaScript.",
-            "Understanding expressions and their evaluation in JavaScript."
-        ]
-    },
-    {
-        "title": "Control Flow and Conditional Statements",
-        "description": [
-            "Learning about control flow structures like if statements, switch statements, and loops.",
-            "Using conditional statements to control the flow of execution in JavaScript programs."
-        ]
-    },
-    {
-        "title": "Functions",
-        "description": [
-            "Understanding the concept of functions and their importance in JavaScript.",
-            "Declaration, invocation, and usage of functions with parameters and return values."
-        ]
-    },
-    {
-        "title": "Arrays and Objects",
-        "description": [
-            "Working with arrays and objects, including methods for manipulation and iteration.",
-            "Understanding array and object literals, accessing and modifying their elements."
-        ]
-    },
-    {
-        "title": "DOM Manipulation",
-        "description": [
-            "Introduction to the Document Object Model (DOM) and its representation of HTML documents.",
-            "Manipulating HTML elements using JavaScript to create dynamic and interactive web pages."
-        ]
-    },
-    {
-        "title": "Events and Event Handling",
-        "description": [
-            "Understanding events in JavaScript and their role in user interactions.",
-            "Handling events using event listeners and callback functions."
-        ]
-    },
-    {
-        "title": "Asynchronous JavaScript",
-        "description": [
-            "Exploring asynchronous programming concepts such as callbacks, promises, and async/await.",
-            "Managing asynchronous operations to handle tasks like data fetching and processing."
-        ]
-    },
-    {
-        "title": "ES6+ Features",
-        "description": [
-            "Introduction to modern JavaScript features introduced in ECMAScript 6 and later versions.",
-            "Learning about arrow functions, template literals, destructuring, and spread/rest operators."
-        ]
-    },
-    {
-        "title": "Error Handling",
-        "description": [
-            "Understanding error handling techniques in JavaScript using try-catch blocks.",
-            "Handling runtime errors gracefully to prevent script execution interruption."
-        ]
-    },
-    {
-        "title": "Introduction to ES Modules",
-        "description": [
-            "Exploring ES Modules for modular JavaScript code organization and dependency management.",
-            "Importing and exporting modules to improve code maintainability and reusability."
-        ]
-    },
-    {
-        "title": "Working with APIs",
-        "description": [
-            "Practical exercises on fetching data from APIs (Application Programming Interfaces) using JavaScript.",
-            "Handling API responses and processing data for use in web applications."
-        ]
-    },
-    {
-        "title": "Project Development",
-        "description": [
-            "Applying JavaScript skills to develop interactive web applications or projects.",
-            "Implementing features learned throughout the course in real-world scenarios."
-        ]
-    },
-    {
-        "title": "Testing and Debugging",
-        "description": [
-            "Exploring tools and techniques for testing JavaScript code and debugging common errors.",
-            "Writing test cases and using browser developer tools for debugging purposes."
-        ]
-    },
-    {
-        "title": "Best Practices and Code Optimization",
-        "description": [
-            "Guidelines for writing clean, maintainable, and optimized JavaScript code.",
-            "Understanding code quality standards and adopting best practices for efficient development."
-        ]
-    }
+      {
+          "title": "Introduction to Social Media Marketing (SMM)",
+          "description": [
+              "Overview of SMM and its significance in modern marketing strategies."
+          ]
+      },
+      {
+          "title": "Understanding Social Media Platforms",
+          "description": [
+              "Exploring popular social media platforms such as Facebook, Instagram, Twitter, LinkedIn, and TikTok.",
+              "Understanding the demographics, features, and best practices for each platform."
+          ]
+      },
+      {
+          "title": "Content Creation and Curation",
+          "description": [
+              "Strategies for creating engaging and shareable content tailored to target audiences.",
+              "Techniques for sourcing and curating content from various sources, including user-generated content (UGC)."
+          ]
+      },
+      {
+          "title": "Audience Engagement and Community Management",
+          "description": [
+              "Techniques for building and nurturing online communities.",
+              "Strategies for fostering engagement, managing interactions, and responding to audience feedback."
+          ]
+      },
+      {
+          "title": "Social Media Advertising",
+          "description": [
+              "Introduction to paid advertising on social media platforms.",
+              "Understanding targeting options, ad formats, and budgeting strategies."
+          ]
+      },
+      {
+          "title": "Analytics and Performance Measurement",
+          "description": [
+              "Understanding key metrics and tools for analyzing and evaluating the effectiveness of social media campaigns.",
+              "Using analytics to track ROI, engagement metrics, and audience demographics."
+          ]
+      },
+      {
+          "title": "Influencer Marketing",
+          "description": [
+              "Exploring influencer marketing strategies and collaborations to amplify brand reach and engagement.",
+              "Identifying and partnering with influencers relevant to your target audience."
+          ]
+      },
+      {
+          "title": "Crisis Management in Social Media",
+          "description": [
+              "Strategies for handling negative feedback, crises, and reputation management on social media.",
+              "Developing crisis communication plans and response strategies."
+          ]
+      },
+      {
+          "title": "Legal and Ethical Considerations",
+          "description": [
+              "Understanding legal and ethical issues in SMM, including privacy, copyright, and disclosure regulations.",
+              "Ensuring compliance with regulations and ethical standards in social media marketing efforts."
+          ]
+      },
+      {
+          "title": "Case Studies and Best Practices",
+          "description": [
+              "Analysis of successful SMM campaigns and industry best practices.",
+              "Deriving insights and strategies from real-world case studies to inform SMM efforts."
+          ]
+      },
+      {
+          "title": "Project Work and Hands-on Exercises",
+          "description": [
+              "Practical assignments and projects to apply learned concepts and develop SMM strategies.",
+              "Hands-on exercises to hone skills in content creation, advertising, and community management."
+          ]
+      },
+      {
+          "title": "Final Project Presentation",
+          "description": [
+              "Presenting final SMM projects, receiving feedback, and discussing lessons learned.",
+              "Reflecting on the course journey and planning next steps in SMM endeavors."
+          ]
+      }
     ]
   },
   {id:uuidv4(),
     title: "Digital Marketing", 
     subtitle: "Online Promotion Strategies", 
+    titleBig: "Digital Marketing Mastery: Strategies for Success",
     text: "This course provides practical knowledge of digital marketing strategies, including SEO, content marketing, social media, and analytics. Students will learn how to attract target audiences and increase conversions in online businesses.",
     icon: marketing,
     active: false,
@@ -491,6 +466,7 @@ export const courseCards =[
   {id:uuidv4(),
     title: "Mobile Development", 
     subtitle: "Creating iOS and Android Applications", 
+    titleBig: "Mastering Mobile Development: Building Innovative Apps",
     text: "This course focuses on developing mobile applications for iOS and Android platforms. Students will learn essential tools and programming languages such as Swift (for iOS) and Kotlin (for Android), as well as creating user interfaces and interacting with APIs.",
     icon: mobile,
     active: false,
@@ -588,6 +564,7 @@ export const courseCards =[
   {id:uuidv4(),
     title: "Data Analysis", 
     subtitle: "Data Extraction, Processing, and Visualization", 
+    titleBig: "Data Analysis Essentials: Unlocking Insights for Success",
     text: "The course covers the basics of data analysis, including methods for collecting, processing, and visualizing information. Students will become familiar with data analysis tools such as Python and libraries like Pandas, NumPy, and Matplotlib, and learn how to apply them to solve real-world business problems.",
     icon: data,
     active: false,
@@ -685,6 +662,7 @@ export const courseCards =[
   {id:uuidv4(),
     title: "Artificial Intelligence", 
     subtitle: "Introduction to Machine Learning and Neural Networks", 
+    titleBig: "Artificial Intelligence Essentials: Unlocking the Future",
     text: "In this course, students will be introduced to the basics of machine learning and neural networks. They will study various methods of model training, including classification, regression, and clustering, and learn how to apply them for data analysis and prediction.",
     icon: ai,
     active: true,
@@ -782,6 +760,7 @@ export const courseCards =[
   {id:uuidv4(),
     title: "Financial Literacy", 
     subtitle: "Fundamentals of Personal Finance and Investments", 
+    titleBig: "Financial Literacy Fundamentals: Empowering Financial Freedom",
     text: "This course provides basic knowledge of personal finance, budgeting, investing, and financial planning. Students will learn about various types of investments, debt management, and creating a financial strategy to achieve their goals.",
     icon: finance,
     active: false,
@@ -940,7 +919,7 @@ export const footerLinks = [
     title: "Courses",
     links: [{id: uuidv4(),
         name: "HTML&CSS",
-        link: "#"},
+        link: "ddbe63eb-37d8-4943-a100-e0c96829d882"},
       {id: uuidv4(),
         name: "JavaScript",
         link: "#"},
