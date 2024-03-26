@@ -11,6 +11,8 @@ import Faqs from "./Faqs";
 import AboutHero from "./AboutHero";
 import AboutFaqs from "./AboutFaqs";
 import CoursesHero from "./CoursesHero";
+import SinglePageHero from "./SinglePageHero";
+import SinglePageProgram from "./SinglePageProgram";
 
 
 export {
@@ -26,5 +28,7 @@ export {
   Faqs,
   AboutHero,
   AboutFaqs,
-  CoursesHero
+  CoursesHero,
+  SinglePageHero,
+  SinglePageProgram
 }

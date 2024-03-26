@@ -22,8 +22,6 @@ const BestCourses = () => {
         All Courses
         <img src={arrow} alt="arrow" width={36} height={16} />
       </Link>
-
-      <LinkCustom label="All Courses" href="courses" />
     </section>
   );
 };

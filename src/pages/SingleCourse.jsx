@@ -1,7 +1,8 @@
 import { Link, useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import { CourseCard } from '../components';
+
 import { courseCards } from '../constants';
+import { SinglePageHero, SinglePageProgram } from '../sections';
 
 const SingleCourse = () => {
   const { id } = useParams();
@@ -15,12 +16,14 @@ const SingleCourse = () => {
   }, []);
 
   return (
-    <div>
-      <Link to="/"> Back</Link>
-      <p>{id}</p>
-
-      {course && <CourseCard key={course.id} {...course} />}
-    </div>
+    <>
+      {course && (
+        <div key={course.id}>
+          <SinglePageHero {...course} />
+          <SinglePageProgram program={course.program} subtitle={course.subtitle} id={course.id} />
+        </div>
+      )}
+    </>
   );
 };
 

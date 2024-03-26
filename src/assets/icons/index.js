@@ -3,14 +3,6 @@ import hamburger from  './hamburger.svg';
 import send from  './send.svg';
 import shield from  './shield.svg';
 import star from  './star.svg';
-import html from  './courses/html.svg';
-import js from  './courses/js.svg';
-import smm from  './courses/smm.svg';
-import ai from  './courses/ai.svg';
-import data from  './courses/data.svg';
-import finance from  './courses/finance.svg';
-import marketing from  './courses/marketing.svg';
-import mobile from  './courses/mobile.svg';
 import arrow from  './arrow.svg';
 import decor from  './decor.svg';
 import Instagram from  './Instagram';
@@ -31,14 +23,6 @@ export {
   send,
   shield,
   star,
-  html,
-  js,
-  smm,
-  ai,
-  finance,
-  marketing,
-  mobile,
-  data,
   arrow,
   decor,
   Instagram,

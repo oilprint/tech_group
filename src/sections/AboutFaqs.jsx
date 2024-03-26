@@ -17,9 +17,9 @@ const AboutFaqs = () => {
           <ul className="flex flex-col md:max-w-[600px] w-full gap-4">
             {aboutFaqs.map((item) => (
               <li
-                className="rounded-[20px] p-5 pl-12 bg-gray-gradient before:block before:absolute before:top-8 before:left-5 before:w-4 before:h-4 before:rounded-full  before:bg-accent relative"
+                className="rounded-[20px] p-5 pl-10 bg-gray-gradient before:block before:absolute before:top-[30px] before:left-5 before:w-3 before:h-3 before:rounded-full  before:bg-accent relative"
                 key={item.id}>
-                <h3 className="text-3xl mb-2 text-accent">{item.question}</h3>
+                <h3 className="text-2xl mb-1 text-accent ">{item.question}</h3>
                 <p>{item.answer}</p>
               </li>
             ))}

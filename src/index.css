@@ -28,11 +28,12 @@
 }
 
 .primaryBtn {
-  @apply inline-block py-4 px-8 bg-accent rounded-[10px] border border-accent text-bg hover:bg-transparent hover:text-accent shrink-0 focus:outline-1 focus:outline-accent focus:rounded-[4px] focus:outline-offset-4 transition    ease-in-out duration-300 active:bg-secondary active:border-secondary active:text-primary;
+  @apply inline-block w-fit py-4 px-8 bg-accent rounded-[10px] border border-accent text-bg hover:bg-transparent hover:text-accent shrink-0 focus:outline-1 focus:outline-accent focus:outline-offset-4 transition    ease-in-out duration-300 active:bg-secondary active:border-secondary active:text-primary;
 }
 
 .secondaryBtn {
   display: inline-block;
+  width: fit-content;
   flex-shrink: 0;
   padding: 16px 32px;
   background: transparent;
@@ -52,7 +53,6 @@
 .secondaryBtn:focus {
   outline: solid 1px var(--accent);
   outline-offset: 4px;
-  border-radius: 4px;
   color: var(--primary);
 }
 

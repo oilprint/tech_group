@@ -17,7 +17,7 @@ const AboutCenter = () => {
             backgroundImage: ` linear-gradient(0deg, rgba(0,4,15,1) 0%, rgba(0,4,15,0.5) 18%, rgba(0,4,15,0) 41%), url(${bgFace})`,
           }}
         />
-        <div className="md:max-w-[660px] max-w-[400px] w-full ml-auto ">
+        <div className="md:max-w-[660px] max-w-[400px] w-full ml-auto relative z-10 ">
           <h2 className=" md:text-[42px] text-[32px] leading-[1.3] mb-5 uppercase">
             {aboutCenter.title}
           </h2>
