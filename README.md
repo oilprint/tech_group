@@ -4,12 +4,12 @@
 
 # [go to website](https://education-center-one.vercel.app/)
 
-🎨🖥️ Project Name: Redesign of Educational Center Website
+🎨🖥️ <h2> Project Name: Redesign of Educational Center Website </h2>
 
 🖥️<h3> About the Project: </h3> 
 This project is a website for an educational center that offers a wide range of educational courses and programs. Developed and implemented using React technology, this website is designed to provide information about available courses, services, and other useful information for potential students.
 
-🛠️📱Functionality
+🛠️📱 <h3> Functionality: </h3>  
 📄 Information about the Center: Visitors can access comprehensive information about the educational center, including its mission, history, and facilities.
 ⌛ Available Courses with Detailed Syllabus: Detailed descriptions of the available courses, including syllabus, learning objectives, and requirements, are provided for prospective students.
 📲Contact Information: Users can find contact details, such as phone numbers, email addresses, and physical addresses, to reach out to the center for inquiries or assistance.
@@ -17,7 +17,8 @@ This project is a website for an educational center that offers a wide range of 
 🛠️📱Responsive Design: The site is designed to be responsive to ensure easy viewing on all devices, including mobile phones and tablets.
 Functional features include:
 
-🛠️Technologies: his project was developed using the following technologies:
+🛠️  <h3> Technologies:  </h3>  
+This project was developed using the following technologies:
 
 React: Used to create an interactive user interface.
 HTML/CSS: For the structure and styles of the website.
