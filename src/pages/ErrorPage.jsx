@@ -3,6 +3,7 @@ import bgHero from '../assets/images/bg-hero.jpg';
 
 const ErrorPage = () => {
   const error = useRouteError();
+  console.error(error);
   return (
     <section
       id="hero"

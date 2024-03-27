@@ -14,7 +14,7 @@ const SinglePageProgram = ({ program, subtitle, id }) => {
       <ol className="list-decimal gap-[60px] ss:columns-2 columns-1 mx-auto mb-10  pl-3">
         {program.map((item) => (
           <li key={item.id} className="mb-3">
-            <h3 className=" md:text-2xl text-xl text-accent leading-[1.3] mb-1">{item.title}</h3>
+            <h3 className=" md:text-2xl text-xl font-medium leading-[1.3] mb-1">{item.title}</h3>
             <ul className="pl-1">
               {item.description.map((el, ind) => (
                 <li
