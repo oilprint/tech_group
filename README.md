@@ -21,7 +21,9 @@ Functional features include:
 This project was developed using the following technologies:
 
 React: Used to create an interactive user interface.
+
 HTML/CSS: For the structure and styles of the website.
+
 React Router: For routing between different application pages.
 
 
