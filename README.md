@@ -19,11 +19,10 @@ Functional features include:
 
  <h3> 🛠️  Technologies:  </h3>  
 
-React: Used to create an interactive user interface.
-
-HTML/CSS: For the structure and styles of the website.
-
-React Router: For routing between different application pages.
+💠 React: Used to create an interactive user interface.<br/>
+💠 HTML/CSS: For the structure and styles of the website.<br/>
+💠 Tailwind CSS: for styling  and responsive design throughout the website<br/>
+💠 React Router: For routing between different application pages.
 
 
 ## Technologies Used:
