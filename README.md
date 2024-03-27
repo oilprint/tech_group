@@ -18,7 +18,6 @@ This project is a website for an educational center that offers a wide range of 
 Functional features include:
 
  <h3> 🛠️  Technologies:  </h3>  
-This project was developed using the following technologies:
 
 React: Used to create an interactive user interface.
 
