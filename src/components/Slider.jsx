@@ -30,7 +30,7 @@ const Slider = ({ testimonials }) => {
           },
         }}
         modules={[Pagination, Navigation, Autoplay]}
-        className="mySwiper max-w-full pt-[30px]">
+        className="mySwiper max-w-full md:pt-[30px] pt-0 sm:mt-0 -mt-5 ">
         {testimonials.map((item) => (
           <SwiperSlide key={item.id}>
             <div

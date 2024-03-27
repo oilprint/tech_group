@@ -1,6 +1,13 @@
-import { Hero, Statistics, Features,
-  BestCourses, AboutCenter, Testimonials, ContactUs, Faqs } from "../sections";
-
+import {
+  Hero,
+  Statistics,
+  Features,
+  BestCourses,
+  AboutCenter,
+  Testimonials,
+  ContactUs,
+  Faqs,
+} from '../sections';
 
 const Home = () => {
   return (
@@ -14,10 +21,9 @@ const Home = () => {
         <Testimonials />
         <Faqs />
         <ContactUs />
-        
       </div>
     </main>
   );
-}
+};
 
-export default Home
+export default Home;

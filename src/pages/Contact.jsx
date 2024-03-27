@@ -19,11 +19,15 @@ const Contact = () => {
         <div className="max-w-[570px] w-full rounded-[20px] p-5 pl-10 bg-gray-gradient flex flex-col gap-5">
           <div className="text-2xl">
             Address:
-            <a className="block text-xl">5 Zabolotnoho Street, Odessa, 65123, Ukraine</a>
+            <a className="block text-xl" href="https://maps.app.goo.gl/Lad3e3A3KbBLTUi67">
+              5 Zabolotnoho Street, Odessa, 65123, Ukraine
+            </a>
           </div>
           <div className="text-2xl">
             Phone:
-            <a className="block text-xl">+1234567890</a>
+            <a className="block text-xl" href="tel:+3806684411444">
+              +38 066 84411444
+            </a>
           </div>
           <div className="text-2xl">
             Business Hours:

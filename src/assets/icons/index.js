@@ -16,7 +16,6 @@ import OpenMenu from  './OpenMenu';
 import PhoneCall from  './PhoneCall';
 import WhatsApp from  './WhatsApp';
 
-
 export {
   logo,
   hamburger,

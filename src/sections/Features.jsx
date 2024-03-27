@@ -8,9 +8,7 @@ const Features = () => {
         <div className="relative flex flex-col items-center md:items-start md:max-w-[500px] w-full ">
           <div className="absolute z-[10] -left-[200%] top-0 w-[150%] h-[120%] rounded-full  blue-gradient" />
           <div className="relative z-10">
-            <h2 className="md:mb-12 mb-6 md:text-4xl   text-3xl leading-[1.3] uppercase">
-              Discover the Advantages: Elevate Your Skills with Our Courses
-            </h2>
+            <h2 className="title">Discover the Advantages: Elevate Your Skills with Our Courses</h2>
             <Button href="courses" label="Choose Your Course" />
           </div>
         </div>

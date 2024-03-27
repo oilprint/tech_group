@@ -10,10 +10,8 @@ const AboutFaqs = () => {
         backgroundImage: ` linear-gradient(0deg, rgba(0,4,15,1) 0%, rgba(0,4,15,0.5) 18%, rgba(0,4,15,0) 41%), linear-gradient(0deg, rgba(0,4,15,0) 0%, rgba(0,4,15,0.5) 80%, rgba(0,4,15,1) 100%), url(${bgHero})`,
       }}>
       <div className="container ">
-        <h2 className="md:mb-12 mb-6 md:text-[52px] text-[36px] leading-[1.3] uppercase">
-          Values and Advantages of Our Center
-        </h2>
-        <div className="flex-1 flex md:flex-row flex-col justify-between items-start  gap-8">
+        <h2 className="title">Values and Advantages of Our Center</h2>
+        <div className="flex-1 flex md:flex-row flex-col justify-between items-start md:gap-8 gap-4">
           <ul className="flex flex-col md:max-w-[600px] w-full gap-4">
             {aboutFaqs.map((item) => (
               <li
