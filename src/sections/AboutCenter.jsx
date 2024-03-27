@@ -18,9 +18,7 @@ const AboutCenter = () => {
           }}
         />
         <div className="md:max-w-[660px] max-w-[400px] w-full ml-auto relative z-10 ">
-          <h2 className=" md:text-[42px] text-[32px] leading-[1.3] mb-5 uppercase">
-            {aboutCenter.title}
-          </h2>
+          <h2 className="title">{aboutCenter.title}</h2>
           <p className="mb-[50px]">{aboutCenter.text}</p>
           <Button href="about" label="About Us" />
         </div>
