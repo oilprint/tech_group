@@ -4,7 +4,7 @@
 
 # [go to website](https://education-center-one.vercel.app/)
 
- <h2>🎨🖥️ Project Name: Redesign of Educational Center Website </h2>
+ <h2>🎨🖥️Redesign of Educational Center Website </h2>
 
 <h3> 🖥️ About the Project: </h3> 
 This project is a website for an educational center that offers a wide range of educational courses and programs. Developed and implemented using React technology, this website is designed to provide information about available courses, services, and other useful information for potential students.
