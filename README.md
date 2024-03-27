@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/oilprint/oilprint/blob/main/educationCenter-cover.jpg" target="_blank" align="center" style="width: 100%" />
+<img src="https://github.com/oilprint/oilprint/blob/main/familydental-cover-05.jpg" target="_blank" align="center" style="width: 100%" />
 </div>  
 
 # [go to website](https://education-center-one.vercel.app/)
