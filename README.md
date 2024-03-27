@@ -10,11 +10,11 @@
 This project is a website for an educational center that offers a wide range of educational courses and programs. Developed and implemented using React technology, this website is designed to provide information about available courses, services, and other useful information for potential students.
 
  <h3> 🛠️📱 Functionality: </h3>  
-📄 Information about the Center: Visitors can access comprehensive information about the educational center, including its mission, history, and facilities. <br/>
-⌛ Available Courses with Detailed Syllabus: Detailed descriptions of the available courses, including syllabus, learning objectives, and requirements, are provided for prospective students.<br/>
-📲Contact Information: Users can find contact details, such as phone numbers, email addresses, and physical addresses, to reach out to the center for inquiries or assistance.
+💠 Information about the Center: Visitors can access comprehensive information about the educational center, including its mission, history, and facilities. <br/>
+💠 Available Courses with Detailed Syllabus: Detailed descriptions of the available courses, including syllabus, learning objectives, and requirements, are provided for prospective students.<br/>
+💠 Contact Information: Users can find contact details, such as phone numbers, email addresses, and physical addresses, to reach out to the center for inquiries or assistance.
 
-🛠️📱Responsive Design: The site is designed to be responsive to ensure easy viewing on all devices, including mobile phones and tablets.
+💠 Responsive Design: The site is designed to be responsive to ensure easy viewing on all devices, including mobile phones and tablets.
 Functional features include:
 
  <h3> 🛠️  Technologies:  </h3>  
