@@ -20,7 +20,7 @@ const Hero = () => {
       />
       <div className="container flex flex-1 justify-center items-center min-h-[90vh] z-20 relative">
         <div className="hero__inner flex flex-1 flex-col justify-center items-center max-w-[900px] w-full text-center ">
-          <h1 className="font-tektur md:text-8xl text-6xl pt-10 mb-6">
+          <h1 className="font-tektur md:text-8xl ss:text-6xl text-5xl pt-10 mb-6">
             Unleash Your <span className="text-accent">Tech Potential</span>
           </h1>
           <p className="md:text-2xl text-xl md:mb-12 mb-6">
