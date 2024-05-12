@@ -35,6 +35,7 @@ Frontend
 
   <img src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" target="_blank" align="center" style="margin: 50px"  height="30" />
   <img src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" target="_blank" align="center" style="margin: 50px"  height="30" />
+  <a href="https://react.dev/" target="_blank"><img style="margin: 30px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="JavaScript" height="30" /></a> 
   <img src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" target="_blank" align="center" style="margin: 50px"  height="30" />
 </div>
 
